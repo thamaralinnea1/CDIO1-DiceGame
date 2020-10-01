@@ -9,6 +9,11 @@ public class Dice {
         facevalue = value;
 
     }
+
+    public Dice() {
+
+    }
+
     //kast terningen og vis værdien
     public int roll()
     {
