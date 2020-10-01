@@ -30,4 +30,12 @@ public class Dice {
         return facevalue;
 
     }
+    //retunerer en streng repræsentation og objekts data
+
+    public String toString(){
+        String result = "values" + facevalue;
+        return result;
+    }
+
+
 }
