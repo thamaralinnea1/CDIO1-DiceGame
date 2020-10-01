@@ -39,13 +39,13 @@ public class Test {
                     break;
             }
         }
-        System.out.println("Resultat af test:");
-        System.out.println("Slog 1 " + face1 + " gange");
-        System.out.println("Slog 2 " + face2 + " gange");
-        System.out.println("Slog 3 " + face3 + " gange");
-        System.out.println("Slog 4 " + face4 + " gange");
-        System.out.println("Slog 5 " + face5 + " gange");
-        System.out.println("Slog 6 " + face6 + " gange");
+        System.out.println("Test result:");
+        System.out.println("Roll 1 " + face1 + " times");
+        System.out.println("Roll 2 " + face2 + " times");
+        System.out.println("Roll 3 " + face3 + " times");
+        System.out.println("Roll 4 " + face4 + " times");
+        System.out.println("Roll 5 " + face5 + " times");
+        System.out.println("Roll 6 " + face6 + " times");
     }
 }
 
