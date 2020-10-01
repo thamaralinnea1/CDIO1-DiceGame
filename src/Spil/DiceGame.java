@@ -20,5 +20,18 @@ public class DiceGame {
 
         int p1sum = 0;
         int p2sum = 0;
+
+        //While loop der kører indtil spiller 1 ellers 2's sum er større eller lig med 40
+
+        while (p1sum <= 40 || p2sum <=40) {
+            Scanner input = new Scanner(System.in);
+            System.out.println("press r and enter to roll dice");
+            String roll = input.nextLine();
+            if (roll.equals("r")) {
+                Dice1.roll();
+
+            }
+
+        }
     }
 }
