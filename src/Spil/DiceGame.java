@@ -23,6 +23,10 @@ public class DiceGame {
 
         //While loop der kører indtil spiller 1 ellers 2's sum er større eller lig med 40
 
+        System.out.println("Welcome player 1 and player 2");
+        System.out.println("Each player gets two dice and the first player to get a total of 40 points or more wins the game");
+        System.out.println(" Good luck :) ");
+
         while (p1sum <= 40 && p2sum <=40) {
             Scanner input = new Scanner(System.in);
             System.out.println("press r and enter to roll dice");
@@ -51,6 +55,17 @@ public class DiceGame {
             System.out.println("Player 2: " + "Dice one:" + Dice3 + " Dice two: "  + Dice4);
             System.out.println("player 2 total=  " + p2sum);
 
+
+            if (p1sum >= 40)
+                System.out.println("Player 1  is the winner  with " + p1sum + " point");
+
+            if (p2sum >=40)
+                System.out.println("Player 2 is the winner with " + p2sum + " point" );
+
+            if (p1sum >= 40 && p2sum >= 40)
+                System.out.println("Both Players have won the game ");
+
         }
+
     }
 }
